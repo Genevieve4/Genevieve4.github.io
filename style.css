@@ -43,13 +43,17 @@ p {
 .center {
   text-align: center;
 }
+.intro {
+  position: absolute;
+  bottom: 0;
+  left: calc(93vh*0.105644);
+}
 #introh{
-  font-size: clamp(20px, 6vw, 100vh);
+  font-size: clamp(20px, 150%, 100vh);
 }
 #introp{
-  font-size: clamp(calc(15px - 3vw), calc(10px + 1.8vw), 5vh);
+  font-size: clamp(calc(15px - 3vw), calc(20px + 0.8vw), 5vh);
   position: relative;
-  bottom: 2rem;
 }
 .column {
   float: left;
@@ -59,11 +63,6 @@ p {
   content: "";
   display: table;
   clear: both;
-}
-.intro {
-  position: absolute;
-  bottom: clamp(30px, calc(10% - 1vw), 10%);
-  left: calc(93vh*0.105644);
 }
 .port {
   margin-top: calc(0.2% + 30px);
@@ -94,7 +93,7 @@ p.right {
 }
 .a {
   position: relative;
-  top: 4rem;
+  margin-top: 5vh;
 }
 
 /* STYLE IMAGES */
@@ -143,9 +142,9 @@ img {
 #bear{
   position: absolute;
   right: 1vw;
-  top: 35%;
+  top: 40%;
   max-width: calc(10%);
-  translate: transform(0, -40%)
+  transform: translate(0, -40%)
 }
 #flopbunny{
   position: absolute;
