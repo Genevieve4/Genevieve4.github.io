@@ -48,6 +48,8 @@ p {
 }
 #introp{
   font-size: clamp(calc(15px - 3vw), calc(10px + 1.8vw), 5vh);
+  position: relative;
+  bottom: 2rem;
 }
 .column {
   float: left;
@@ -91,10 +93,8 @@ p.right {
   padding:1%;
 }
 .a {
-  position: absolute;
-  bottom:5px;
-  left: 55vw;
-  transform: translate(-55%,0);
+  position: relative;
+  top: 4rem;
 }
 
 /* STYLE IMAGES */
@@ -121,7 +121,7 @@ img {
   max-width: clamp(1px, 50%, 40vh);
   border-radius: 50%;
   left: 50%;
-  top: 15%;
+  top: 13.5%;
   border-color: #000000;
   border-width: 0.2rem;
   border-style: solid;
@@ -143,7 +143,7 @@ img {
 #bear{
   position: absolute;
   right: 1vw;
-  top: 40%;
+  top: 35%;
   max-width: calc(10%);
   translate: transform(0, -40%)
 }
