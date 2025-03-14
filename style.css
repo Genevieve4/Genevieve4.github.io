@@ -49,10 +49,10 @@ p {
   left: calc(93vh*0.105644);
 }
 #introh{
-  font-size: clamp(20px, 150%, 100vh);
+  font-size: 150%;
 }
 #introp{
-  font-size: clamp(calc(15px - 3vw), calc(20px + 0.8vw), 5vh);
+  font-size: calc(20px + 0.8vw);
   position: relative;
 }
 .column {
